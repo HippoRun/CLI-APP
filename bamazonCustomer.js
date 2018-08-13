@@ -65,7 +65,7 @@ function start(){
 
 function search(id, quantity){
     connection.query("SELECT * FROM products WHERE ?", { item_id: id }, function(err, res) {
-        iff(err){
+        if(err){
             console.log("An Error Has Ocurr");
             restart();
         }
@@ -99,7 +99,7 @@ function mysqlUpdate(stock, quantity, id, price){
         var list = new List({
             name: 'input',
             message: 'Would you like to?',
-            // choices may be defined as an array or a function taht returns an array
+            // choices may be defined as an array or a function that returns an array
             choices: [
                 'New Transaction',
                 'End Transaction'
