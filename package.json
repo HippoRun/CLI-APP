@@ -1,0 +1,24 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "An Amazon-like storefront with the MySQL skills I've learned this week. The app will take in orders from customers and deplete stock from the store's inventory.",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HippoRun/CLI-APP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HippoRun/CLI-APP/issues"
+  },
+  "homepage": "https://github.com/HippoRun/CLI-APP#readme"
+}
