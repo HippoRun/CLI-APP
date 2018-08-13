@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS bamazon;
+DROP DATABASE IF EXISTS bamazonDB;
 
-CREATE DATABASE bamazon;
+CREATE DATABASE bamazonDB;
 
-USE bamazon;
+USE bamazonDB;
 
 CREATE TABLE products (
   item_id INT NOT NULL,
@@ -45,4 +45,4 @@ VALUES (0010, "Hippo Hammock", "outdoor", 55.00, 0 );
 
 SELECT *FROM products;
 
-ALTER USER 'root@localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+ALTER USER 'root@localhost' IDENTIFIED WITH mysql_native_password BY 'TB3ismybear';
